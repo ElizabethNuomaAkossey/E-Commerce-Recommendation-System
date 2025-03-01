@@ -16,6 +16,17 @@ The goal is to enhance e-commerce platforms by providing personalized recommenda
 The dataset consists of three files:
 
 **- 🛍️ events.csv :** contains user interactions (views, add-to-carts, transactions).
+1️⃣ Events Data (events.csv)
+
+This file logs user interactions with items on the e-commerce platform. It includes:
+
+ * timestamp: When the event occurred
+
+visitorid: A unique identifier for each user
+
+event: The type of interaction (view, addtocart, transaction)
+
+itemid: The unique identifier for the item
 
 **- 🏷️ item_properties_part1.csv & item_properties_part2.csv :** these files describe item attributes.
 
