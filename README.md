@@ -34,6 +34,8 @@ itemid: The unique identifier for the item
 
   ## 🛠️ Data Preparation
 
+This stage the data preparation steps taken to clean, process, and merge the datasets used in the e-commerce recommendation system. The goal of this stage is to ensure data consistency, remove noise, and create a structured dataset ready for feature engineering.
+
   ## 🤖 Modeling
 
   ## 📈 Evaluation
