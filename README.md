@@ -30,7 +30,7 @@ itemid: The unique identifier for the item
 
 **- 🏷️ item_properties_part1.csv & item_properties_part2.csv :** these files describe item attributes. it contains over 20 million rows and 4 columns
 
-**- 📂 category_tree.csv :** describes the product hierarchy. it has two columns. the parentid and the categoryid which also has over 1 million data
+**- 📂 category_tree.csv :** describes the product hierarchy. it has two columns. the parentid and the categoryid which also has over 1 million data.
 
   ## 🛠️ Data Preparation
 
