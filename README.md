@@ -36,6 +36,31 @@ itemid: The unique identifier for the item
 
 This stage outlines the data preparation steps taken to clean, process, and merge the datasets used in the e-commerce recommendation system. The goal of this stage is to ensure data consistency, remove noise, and create a structured dataset ready for feature engineering.
 
+EDA was conducted separately for each dataset to understand data distribution, identify inconsistencies, and derive key insights.
+
+🔹 Events Data (events.csv)
+Data Types Check: The dataset had timestamp which was converted to the datetime format, visitorid (int), event (categorical), itemid (int), and transactionid (float, with NaNs).
+
+Duplicates: Detected and dropped duplicate rows that appeared in user interactions.
+
+Event Distribution:
+The majority of interactions were view events, followed by add-to-cart and then transactions.
+
+Missing Values:
+transactionid had missing values for non-transaction events, which was expected.
+
+User Behavior Analysis:
+A large portion of users had only view events , while some progressed to cart additions and transactions.
+
+🔹 Item Properties (item_properties_part1.csv & item_properties_part2.csv)
+Concatenation: Since both files had the same number of columns and identical column names, we concatenated them into a single dataset.
+
+Value Column Handling:
+Numerical values were prefixed with "n", requiring transformation back into numerical format.
+Text values were hashed and stemmed, preventing direct interpretation.
+Missing Data:
+Some items lacked category information, which was resolved using the category tree dataset.
+
   ## 🤖 Modeling
 
   ## 📈 Evaluation
