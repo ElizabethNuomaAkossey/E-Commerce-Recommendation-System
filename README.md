@@ -39,7 +39,7 @@ This stage outlines the data preparation steps taken to clean, process, and merg
 EDA was conducted separately for each dataset to understand data distribution, identify inconsistencies, and derive key insights.
 
 🔹 Events Data (events.csv)
-Data Types Check: The dataset had timestamp which was converted to the datetime format, visitorid (int), event (categorical), itemid (int), and transactionid (float, with NaNs).
+Data Types Check: The dataset had timestamp which was converted to the datetime format, visitorid (int), event (categorical), itemid (int), and transactionid (float, with NaNs since visitors whho did not make any transaction will definetly have no transaction ID).
 
 Duplicates: Detected and dropped duplicate rows that appeared in user interactions.
 
