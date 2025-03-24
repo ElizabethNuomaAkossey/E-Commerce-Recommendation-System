@@ -58,6 +58,7 @@ Concatenation: Since both files had the same number of columns and identical col
 Value Column Handling:
 Numerical values were prefixed with "n", requiring transformation back into numerical format.
 Text values were hashed and stemmed, preventing direct interpretation.
+
 Missing Data:
 Some items lacked category information, which was resolved using the category tree dataset.
 
