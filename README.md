@@ -25,7 +25,7 @@ visitorid: A unique identifier for each user
 rows
 event: The type of interaction (view, addtocart, transaction)
 
-itemid: The unique identifier for the item
+itemid: The unique identifier for the item. There are 235061 unique items in this dataset.
 
 **- 🏷️ item_properties_part1.csv & item_properties_part2.csv :** these files describe item attributes. it contains over 20 million rows and 4 columns, namely; itemid, property, timestamp and value.
 
