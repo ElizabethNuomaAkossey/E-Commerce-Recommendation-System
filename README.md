@@ -51,7 +51,7 @@ Event Distribution:
 The majority of interactions were view events, followed by add-to-cart and then transactions.
 
 Missing Values:
-transactionid had missing values for non-transaction events, which was expected.
+transactionid had missing values for non-transaction events, which was expected. This is because only users who made transactions will be entitled to have a transactionid.
 
 User Behavior Analysis:
 A large portion of users had only view events , while some progressed to cart additions and transactions.
