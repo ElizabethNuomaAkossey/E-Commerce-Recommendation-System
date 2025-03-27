@@ -75,3 +75,13 @@ Some items lacked category information, which was resolved using the category tr
   ## 📈 Evaluation
 
   ##  🚀 Deployment
+
+  ## Tools & Technologies
+•	Programming: Python (Pandas, NumPy, Scikit-learn, TensorFlow Recommenders, Surprise)
+
+•	Machine Learning: Collaborative & Content-Based Filtering, Hybrid Models
+
+•	Visualization: Matplotlib, Seaborn.
+
+•	Version Control: Git & GitHub
+
